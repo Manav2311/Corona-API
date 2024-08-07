@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: radial-gradient(circle, rgba(4, 102, 125, 1) 0%, rgba(255, 255, 255, 1) 28%, rgba(45, 6, 144, 1) 100%);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100dvh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: aliceblue;
+}
+
+.title {
+  padding: 10px 0;
+  text-align: center;
+  color: rgb(3, 30, 58);
+  font-family: Arial;
+  font-size: 70px;
+  font-weight: 900;
+}
+
+.subTitle {
+  padding: 20px 90px;
+  text-align: center;
+  color: rgb(3, 30, 58);
+  font-family: Arial;
+  font-size: 50px;
+}
+
+.mainBody {
+  display: flex;
+}
+
+.main-animated {
+  height: 270px;
+  width: 357px;
+  border-radius: 20px;
+  border: 4px solid #ffffff;
+  background: #16394cb0;
+  padding: 20px;
+  margin: 0 20px;
+}
+
+.boxHeader {
+  padding: 17px 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.location {
+  font-family: Arial;
+  font-size: 30px;
+  padding: 5px 0;
+  display: inline-block;
+}
+
+#allCountriesName,
+#allStatesName,
+#allCitiesName {
+  width: 200px;
+  height: 30px;
+  background: #9AC9FC;
+  color: rgb(11, 21, 66);
+  font-size: 15px;
+}
+
+#allCountriesName>option,
+#allStatesName>option,
+#allCitiesName>option {
+  background-color: transparent;
+  background: transparent;
+}
+
+.dataDiv {
+  height: 100px;
+  font-size: 22px;
+  font-family: Arial;
+  padding: 10px 5px;
+}
+
+.temp {
+  padding: 0 15px;
+  margin: 8px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.temp>p {
+  font-size: 20px;
+  font-family: Arial;
+  text-align: left;
+  display: flex;
+  justify-content: space-between;
+}
+
+#error {
+  margin-top: 20px;
+  background-color: black;
+  color: red;
+  font-weight: 300;
+  letter-spacing: 2px;
+  font-size: 25px;
+  text-align: center;
+}
